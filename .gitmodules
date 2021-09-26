@@ -1,7 +1,3 @@
-[submodule "costarica"]
-	path = costarica
-	url = git@git.vauxoo.com:vauxoo/costarica.git
-	branch = 12.0
 [submodule "ingepro"]
 	path = ingepro
 	url = git@git.vauxoo.com:vauxoo/ingepro.git
