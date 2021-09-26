@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<odoo noupdate="1">
+    <record id="base.main_partner" model="res.partner">
+        <field name="name">IGPCR S.A.</field>
+        <field name="company_type">company</field>
+        <field name="street">Calle 4, Avenida 4 y 6</field>
+        <field name="street2">Alajuela</field>
+        <field name="zip">20101</field>
+        <field name="phone">+506 2430 4578</field>
+        <field name="email"></field>
+        <field name="country_id" eval="ref('base.cr')"/>
+    </record>
+
+    <record id="base.main_company" model="res.company">
+        <field name="name">IGPCR S.A.</field>
+        <field name="street">Calle 4, Avenida 4 y 6</field>
+        <field name="street2">Alajuela</field>
+        <field name="zip">20101</field>
+        <field name="phone">+506 2430 4578</field>
+        <field name="country_id" eval="ref('base.cr')"/>
+        <field name="email"></field>
+        <field name="website">https://www.ingeprocr.com</field>
+    </record>
+</odoo>

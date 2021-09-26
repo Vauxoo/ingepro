@@ -1,7 +1,3 @@
-[submodule "ingepro"]
-	path = ingepro
-	url = git@git.vauxoo.com:vauxoo/ingepro.git
-	branch = 12.0
 [submodule "purchase-workflow"]
 	path = purchase-workflow
 	url = git@github.com:Vauxoo/purchase-workflow.git
